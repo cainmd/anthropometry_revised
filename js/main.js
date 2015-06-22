@@ -287,6 +287,7 @@ var resetUse = function () {
 
     textString = "";
     $('#report-output').text("");
+    $('#add_table').empty();
     
     actualRange = [FL.value, CR.value, CH.value, HC.value, CC.value, AC.value, bodyWeight.value, BW.value, LVW.value, LUW.value, HW.value, TW.value, SW.value, KW.value, AW.value];
 	
